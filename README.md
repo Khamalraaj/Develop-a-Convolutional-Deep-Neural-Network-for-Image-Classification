@@ -1,16 +1,16 @@
 # Develop a Convolutional Deep Neural Network for Image Classification
 
 
-## AIM
+## AIM:
 To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images.
 
-##   PROBLEM STATEMENT AND DATASET
+##   PROBLEM STATEMENT AND DATASET:
 Include the Problem Statement and Dataset.
 
-## Neural Network Model
+## Neural Network Model:
 Include the neural network model diagram.
 
-## DESIGN STEPS
+## DESIGN STEPS:
 ### STEP 1: 
 
 Load the image dataset and divide it into training and testing datasets. Apply suitable transformations such as resizing and normalization to the images.
@@ -40,7 +40,8 @@ Evaluate the trained model using test images. Calculate accuracy, generate a con
 ### Register Number:212224230122
 
 
-## PROGRAM
+## PROGRAM:
+
 ```
 
 import torch
@@ -308,7 +309,7 @@ predict_image(model, image_index=80, dataset=test_dataset)
 
 
 
-### OUTPUT
+### OUTPUT:
 
 ## Model  Summary
 
@@ -331,6 +332,6 @@ predict_image(model, image_index=80, dataset=test_dataset)
 <img width="507" height="559" alt="image" src="https://github.com/user-attachments/assets/7f53a65c-67a6-42b7-8ae7-2e274b491063" />
 
 
-## RESULT
+## RESULT:
 The Convolutional Neural Network was successfully developed and trained for image classification using PyTorch.
 
